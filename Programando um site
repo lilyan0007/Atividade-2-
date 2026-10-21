@@ -18,3 +18,35 @@
     </main>
 </body>
 </html>
+
+NO STYLE CSS
+@charset "UTF-8";
+
+
+
+  body 
+{   
+    font-family:Arial, Helvetica, sans-serif;
+     min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(245, 166, 166), black);
+}
+main {
+    blackground-color: red;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+    color: black;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+}
+h1 {color:blue;
+text-align: center;
+text-shadow: 10px 10px 10px 10px black;}
+h2 {color:blanchedalmond;}
+h3 {color: red;}
+h4{color:orange;}
+  p{
+    text-align: justify;
+  }
