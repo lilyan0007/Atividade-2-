@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhar</title>
+    <style>
+        body{ font: normal 16px Arial;
+            text-align: left;
+        }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+    </style>
+</head>
+<body>
+    <h1>Primeiro</h1>
+    <p></p>
+    <h2> Segundo</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, nesciunt unde. Quidem, molestias architecto? Provident id magni ratione? Sed necessitatibus fugit numquam adipisci autem itaque saepe perspiciatis, veniam cupiditate suscipit!
+    
+</body>
+</html>
