@@ -10,10 +10,30 @@
     
 </body>
 <h1 id="principal" HTML</h1>
-<h2>HTML básico</h2>
-<h3>HTML intermediário</h3>
+<h2 class="básico"> HTML básico</h2>
+<h3 class="intermediario">HTML intermediário</h3>
 <h4></h4>
 </html>
 
 style.css
+@charset "UTF-8";
+style
+body{
+    background-color: aliceblue;
+    font-family: Arial;
+}
 
+h1 { color: rgb(0, 136, 255);}
+h1#principal{ text-align: center;
+background-color: rgb(2, 134, 250);
+color: rgb(240, 255, 244);}
+h2{color: rgb(91, 122, 150);}
+.basico{
+    color:rgb(91, 122, 150) ;
+}
+.intermediario{
+    color: aliceblue;
+}
+.destaque{
+    color: antiquewhite;
+}
