@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        div > p { display:none;}
+        div:hover > p { display: block;color: wheat; background-color: red;width: 90px;}
+        div:hover {
+color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover</h1>
+    <div> Passe o mause para desbloaquear 
+        <p>ooiiiiiii</p>
+    </div>
+<p>fim</p>
+</body>
+</html>
