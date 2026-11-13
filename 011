@@ -1,4 +1,36 @@
-
-
-
-<a href="#">link</a>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORES</title>
+</head>
+ <body>
+      <header>
+         <h1>Site</h1>
+         <nav>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a> 
+         </nav>
+      </header>          
+      <main>
+          <selection id="assuntos">
+          <p> Esportes Políticas </p>
+          </selection>
+          <selection id="noticía">
+          <h2> Notícia sobre o Brasil</h2>
+          <p></p>
+          <aside>
+            <p>Artigo escrito por José da Silva</p>
+          </aside>
+         <article>
+         </article>
+        </selection>
+</main>
+<footer>
+    <p>Desenvolvimento</p>
+</footer>
+</body> </html>
