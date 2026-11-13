@@ -3,8 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CORES</title>
+    <title>Grouping Tag</title>
 </head>
+<style>
+          body{
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: dimgray;
+          margin:0px;
+}
+          header{
+          background-color: white;
+          padding: 10px;
+          margin: 10px;
+}
+         h1 {
+            box-shadow: inset 2px 1px 14px 6px black;
+}
+          nav {
+          background-color: black;
+          padding: 3px;
+          box-shadow:2px 2px 4px 1px rgba(0, 0, 0, 0.4393);
+}
+          nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+}
+          nav > a:hover {
+             text-decoration:underline;
+
+}
+          main {
+            background-color: white;
+            padding:10px;
+            margin:10px;
+            boder-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.384);
+}
+        article {
+           background-color:lightgray;
+           padding:5px;
+}
+        article > aside {
+              background-color: white;
+}
+        footer {
+              background-color: black;
+              color: white;
+              text-aling: center;
+              padding: 1px;
+              margin: 0px;
+}
+       footer {
+         margin: 0px;
+
+        div#bola {
+            height: 100px;
+            width:100px;
+            margin: 10px;
+            blackground-color: white;
+            border-radius:50%;
+}
+    
+      </style>
+          
+</head>
+   
  <body>
       <header>
          <h1>Site</h1>
@@ -33,4 +98,5 @@
 <footer>
     <p>Desenvolvimento</p>
 </footer>
+ <div id="bola" </div>
 </body> </html>
