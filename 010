@@ -13,15 +13,34 @@
            boder-style: solid;
            boder-color: darkslategray;
 
+           boder: 10px solid darkslategray;
            padding-top: 10px;
            padding-right: 10px;
            padding-bottom: 10px;
            padding-left: 10px;
+           padding: 10px;
+
+           margin-top: 10px;
+           margin-right:10px;
+           margin-bottom:10px;
+           margin-left:10px;
+           margin: auto;
+           margin: 20px auto 40px auto;
+           outline-width: 5px;
+           outline-style: dashed;
+           outline-color: salmon;
+           
          }
          a { 
+             display: inline-block;
              boder-width: 10px;
              boder-style: solid;
              boder-color: red;
+
+             padding-top: 10px;
+             padding-rigth: 10px;
+             padding-bottom:10px;
+             padfing-left:10px;
          }
 </style>
 </head>
