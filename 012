@@ -3,57 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grouping Tag</title>
+    <title>Borda personalizada</title>
     <style>
-          body{
-          font-family: Arial, Helvetica, sans-serif;
-          background-color: dimgray;
-          margin:0px;
-}
-          header{
-          background-color: white;
+        h1{
+          border: 20px solid black;
           padding: 10px;
-          margin: 10px;
+          boder-image: url('Borda.png') 27 repeat;
 }
-         h1 {
-            box-shadow: inset 2px 1px 14px 6px black;
-}
-          nav {
-          background-color: black;
-          padding: 3px;
-          box-shadow:5px 3px 7px 1px rgba(0, 0, 0, 0.4393);
-}
-          nav > a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            margin-right: 30px;
-}
-          nav > a:hover {
-             text-decoration:underline;
-
-}
-          main {
-            background-color: white;
-            padding:10px;
-            margin:10px;
-}
-        article {
-           background-color:lightgray;
-           padding:5px;
-}
-        article > aside {
-              background-color: white;
-}
-        footer {
-              background-color: black;
-              color: white;
-              text-aling: center;
-              padding: 1px;
-              margin: 0px;
-}
-      </style>
-  </head>         
+</style
 </head>
-   
- <body>
+<body>
+   <h1>Borda</h1>
+</body>
+</html>
