@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa</title>
+    <style>
+         h1 {
+           background-color: lightgray;
+           height: 300px;
+           width: 300px;
+           boder-width: 10px;
+           boder-style: solid;
+           boder-color: darkslategray;
+
+           padding-top: 10px;
+           padding-right: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
+         }
+         a { 
+             boder-width: 10px;
+             boder-style: solid;
+             boder-color: red;
+         }
+</style>
+</head>
+ <body>
+  <h1>box-level</h1>
+  <p>Parágrafos também são box-level, mas os <a href="#">links são inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
